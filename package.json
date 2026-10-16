@@ -1,0 +1,14 @@
+{
+  "name": "chat-saas-funcional",
+  "version": "1.1.0",
+  "description": "SaaS de chat con gestión de tickets y tareas",
+  "main": "server.js",
+  "scripts": { "start": "node --env-file=.env server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.3.2"
+  }
+}
